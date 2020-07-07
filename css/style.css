@@ -1,0 +1,130 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* variables */
+:root{
+        --green-color:#7ACC2D;
+        --white-color:white;
+        --black-color:#313337;
+}
+
+
+
+html, body{
+        padding: 0px;
+        margin: 0px;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+}
+
+nav{
+        display: flex;
+        background-color: var(--green-color);
+        padding: 10px;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+}
+
+
+nav ul{
+        display: flex;
+}
+
+nav li{
+        padding-right: 30px;
+        list-style: none;
+}
+
+nav li a{
+        color: black;
+        text-decoration: none;
+}
+
+nav li a:hover{
+color: white;
+}
+
+
+/* main section */
+
+.main_section{
+        padding: 10%;
+        text-align: center;
+}
+
+/* product section */
+
+.product_section{
+        background-image: url("../images/curve.png");
+        background-size: cover;
+        background-position: center top;
+        height: 30px;
+        padding: 20%;
+        display: flex;
+}
+
+.product{
+        padding: 15px;
+        margin-top: -220px;
+
+}
+
+.product .content{
+        background-color: white;
+        padding: 20px;
+        padding: 15px;
+        box-shadow: 0 0 3px #c1bcbc;
+}
+
+.img_content{
+        text-align: center;
+}
+
+.main_button{
+        background-color: var(--green-color);
+        width: 100%;
+        padding: 10px;
+        font-size: 12px;
+        color:white;
+        border: 0;
+        cursor: pointer;
+        border-radius: 2px;
+}
+
+.main_button:hover{
+        background-color: #63a724 ;
+}
+
+/* links section */
+
+.links_section{
+        display: flex;
+        padding: 5%;
+}
+
+.unique_link{
+        margin: auto;
+}
+
+.link_content{
+        text-align: center;
+}
+
+/* reviews section */
+
+.review_section{
+        padding-top: 40px;
+        justify-content: center;
+        display: flex;
+}
+
+.unique_review{
+        margin:48px;
+        box-shadow:0 0 13px 4px #c1bcbc;
+}
+
+.review_content{
+        text-align: center;
+}
